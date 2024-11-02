@@ -1,0 +1,174 @@
+/*.App {
+  text-align: center;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.contact-card{
+  margin-top: 15px;
+}
+.card {
+ 
+  width: 175px;
+  font-size: 12px;
+  flex-direction: column;
+  display: grid;
+  justify-content: space-evenly;
+}
+.section {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.card-img{
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+ 
+}
+
+.card-info{
+  padding: 10px;
+}
+
+.card h2 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.card p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+
+@media (max-width: 768px) {
+  .card {
+    width: calc(50% - 20px); 
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    width: calc(100% - 20px); 
+  }
+}  
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  margin: 0;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  
+  height: 65px;
+  margin-top: 10px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  color: white;
+  padding:20px ;
+}
+.header-image{
+  height: 100%;
+  margin-right: 6px;
+}
+.header-title{
+  font-size: 20px;
+  margin-right: auto;
+}
+
+
+.header--project{
+ font-size: 0.75rem;
+font-weight: 500;
+}
+.form{
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr  ;
+  gap: 17px;
+}
+
+.form-button{
+  grid-column: 1 / -1;
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  background: linear-gradient(90.41deg, #711F8D, 1.14%, #A818DA );
+  color: white;
+  border: none;
+  cursor: pointer;
+  
+}
+
+.form--inputs{
+  font-family: "Karla", "sans-serif";
+  border-radius: 5px;
+  border: 1px solid #d5D4D8;
+  text-indent: 5px;
+}  */
+
+/* styles.css */
+
+.counter {
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+
+.counter--minus,
+.counter--plus {
+  font-size: 2rem; /* Example font size */
+  padding: 10px 20px; 
+  margin: 0 10px; 
+  border: none; 
+  border-radius: 5px; 
+  background-color: white; 
+  color: black; 
+  cursor: pointer; 
+  outline: none;
+}
+
+.counter--minus:hover,
+.counter--plus:hover {
+  background-color: lightgray; 
+}
